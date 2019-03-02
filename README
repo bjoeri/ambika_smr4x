@@ -2,11 +2,15 @@ SMR4X - Mutated Ambika SMR-4 voice card
 
 SMR4X is a mutation of the original Ambika SMR-4 voice card with an additional mash up of various other design modifications:
 - Added programmable 4P/2P filter slope selection (ported from SMR-4-Pi but with added decoupling capacitors for the 4052 and excluding the 1P/3P slopes)
-- Added programmable full bandwidth resonance compensation by optional bypass of capacitor in feedback (inspired by Shruthi-1 Sound Designer Edition)
+- Added programmable full bandwidth resonance compensation by optional bypass of capacitor in feedback (inspired by Shruthi-1 Sound Designer Edition). NOTE: FOR SOME REASON THIS DOESN'T APPEAR TO MAKE ANY SIGNIFICANT DIFFERENCE, SEE https://forum.mutable-instruments.net/t/another-modified-ambika-smr-4-voice-card/
 - Added 50k trimpot and modified related resistor value (from 150k to 120k) to allow for filter tuning (ported from SMR4-Plus)
 
-NOTE: THIS IS UNTESTED WORKS IN PROGRESS
+==============================================
+WARNING: THIS IS INCOMPLETE WORKS IN PROGRESS! 
+==============================================
 
 SMR4X is released under cc-by-sa 4.0 license.
 
-This design by Björn Somell (bjoeri@gmail.com) relies heavily on the original design of the official SMR4 voice card by Olivier Gillet (olivier@mutable-instruments.net), as well as modifications from SMR-4-Pi voice card by Pharmasonic (https://github.com/Pharmasonic/SMR-4-Pi), Shruthi-1 Sound Designer Edition by Martin Walkers (http://mutable-instruments-archive.net/wiki/Shruthi-1_SDE), and SMR4-Plus voice card by Andre Laska (kontakt@tubeohm.com)
+Original design of the official SMR4 voice card by E. Gillet (pichenettes@mutable-instruments.net).
+
+This design by Björn Somell (bjoeri@gmail.com) relies heavily on the original design, and is inspired by modifications from SMR-4-Pi voice card by Pharmasonic (https://github.com/Pharmasonic/SMR-4-Pi), Shruthi-1 Sound Designer Edition by Martin Walkers (http://mutable-instruments-archive.net/wiki/Shruthi-1_SDE), and SMR4-Plus voice card by Andre Laska (kontakt@tubeohm.com)
